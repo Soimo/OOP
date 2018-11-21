@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOP
 {
-    class Program
+    interface ITalk
     {
-        static void Main(string[] args)
-        {
-            Dog dog = new Dog("Snoopy", "Chappi", "Home", 25);
-
-        }
+        void Voice();
     }
 }

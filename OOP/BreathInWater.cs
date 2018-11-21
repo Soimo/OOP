@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace OOP
 {
-    class Program
+    abstract class BreathInWater
     {
-        static void Main(string[] args)
+        public BreathInWater()
         {
-            Dog dog = new Dog("Snoopy", "Chappi", "Home", 25);
-
+            Console.WriteLine("Дышит под водой");
         }
     }
 }
