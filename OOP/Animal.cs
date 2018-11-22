@@ -18,8 +18,8 @@ namespace OOP
         private string _habitat;
         public string Habitat
         {
-            get { return _habitat}
-            set { _habitat = value}
+            get { return _habitat; }
+            set { _habitat = value; }
         }
 
 
@@ -53,5 +53,21 @@ namespace OOP
             Food = food;
             Weight = weight;
         }
+
+        public Animal()
+        {
+            Console.WriteLine("Enter name");
+            Name = Console.ReadLine();
+            Console.WriteLine("Enter Habitat");
+            Habitat = Console.ReadLine();
+            Console.WriteLine("Enter food");
+            Food = Console.ReadLine();
+            Console.WriteLine("Enter age");
+            Age = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter weight");
+            Weight = int.Parse(Console.ReadLine());
+        }
+
     }
+
 }
