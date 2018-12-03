@@ -52,10 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Animal.cs" />
-    <Compile Include="BreathInWater.cs" />
+    <Compile Include="Cat.cs" />
+    <Compile Include="ConsoleColorAttribute.cs" />
     <Compile Include="Dog.cs" />
     <Compile Include="ITalk.cs" />
-    <Compile Include="Moving.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -63,6 +63,7 @@
     <None Include="App.config" />
     <Content Include="NLog.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <None Include="NLog.xsd">
       <SubType>Designer</SubType>
